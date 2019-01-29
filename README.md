@@ -1,23 +1,15 @@
 # DOM II - Event Exploration
 
-  
-
 Fun Bus wants you to make their site more interactive. They are relying on you to provide 10 unique events to enhance their site. Explore the many events available to you by using the [MDN events reference](https://developer.mozilla.org/en-US/docs/Web/Events).
-
-  
 
 ## Task 1: Set Up The Project With Git
 
+* [X] Fork the project into your GitHub user account
+
+* [X] Clone the forked project into a directory on your machine
+
+* [X] You are now ready to build this project with your preferred IDE
   
-
-* [ ] Fork the project into your GitHub user account
-
-* [ ] Clone the forked project into a directory on your machine
-
-* [ ] You are now ready to build this project with your preferred IDE
-
-  
-
 ## Task 2: Set Up LESS Preprocessor
 
 * [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
