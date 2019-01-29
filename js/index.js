@@ -34,3 +34,9 @@ document.addEventListener('dragstart', function() {
 window.addEventListener("load", function(event) {
     alert("The page has been loaded");
   });
+
+// Focus
+window.addEventListener('focus', function(event) {
+    alert("The page has focused");
+});
+
