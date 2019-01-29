@@ -19,3 +19,9 @@ document.addEventListener('keydown', function() {
     alert(`You have pressed a key`);
 }, false);
 
+// Wheel
+
+document.addEventListener('wheel', function() {
+    alert(`You have wheeled`);
+}, false);
+
