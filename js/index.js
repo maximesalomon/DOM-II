@@ -7,7 +7,7 @@ navbar[3].addEventListener("mouseover", function(colorChange) {
 });
 
 // Mousedown
-navbar[3].addEventListener("mousedown", function(colorChange) {
+navbar[2].addEventListener("mousedown", function(colorChange) {
     colorChange.target.style.color = "red";
 });
 
@@ -34,10 +34,12 @@ window.addEventListener("load", function(event) {
     console.log("The page has been loaded");
   });
 
-// // Focus
-// window.addEventListener('focus', function(event) {
-//     console.log("The page has focused");
-// });
+// Focus
+
+const links = document.getElementsByClassName('nav-link');
+links[0].addEventListener('focus', function(event) {
+    console.log("The page has focused");
+});
 
 // Resize
 window.addEventListener('resize', function(event) {
